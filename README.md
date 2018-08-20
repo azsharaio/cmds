@@ -3,9 +3,9 @@
 
 
 ### 使用说明
-Mysql配置指引：cat cmds/mysql 
-Nginx配置指引：cat cmds/nginx 
-PHP配置指引：  cat cmds/php 
+Mysql配置指引：cat cmds/mysql    
+Nginx配置指引：cat cmds/nginx   
+PHP配置指引：  cat cmds/php   
 
 #### Config目录为指引所需附件
 
