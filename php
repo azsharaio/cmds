@@ -19,7 +19,7 @@
 
 php-fpm配置：
 		sudo vi /etc/php-fpm.d/www.conf
-		listen = /var/run/php-fpm/php-fpm.sock #更改listen
+		listen = /var/run/php-fpm/php-fpm.sock #更改listen用socket而非TCP，优化速度。
 		listen.owner = nobody	#去掉注释,用nobody提示没权限，改成nginx可用，风险未知
 		listen.group = nobody	#去掉注释
 		user = nginx		#更改为nginx
